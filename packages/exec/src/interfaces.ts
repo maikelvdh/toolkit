@@ -9,6 +9,9 @@ export interface ExecOptions {
   /** optional envvar dictionary.  defaults to current process's env */
   env?: {[key: string]: string}
 
+  /** optional. Runs command inside of a shell. A different shell can be specified as a string. Defaults to false */
+  shell?: boolean | string
+
   /** optional.  defaults to false */
   silent?: boolean
 
