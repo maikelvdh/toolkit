@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "prepare": "npm run build",
     "audit-all": "lerna run audit-moderate",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run tsc",
